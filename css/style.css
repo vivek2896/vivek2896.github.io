@@ -1,0 +1,279 @@
+	body{
+		background: #466368;
+		background: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+	}
+	section{
+		margin-left: 250px;
+		margin-top: 20px;
+		float: left;
+	}
+	aside{
+		margin-right: 180px;
+		margin-top: 10px;
+		float: right;
+	}
+	.audio-player-cont{
+		width: 450px;
+		height: 135px;
+		background: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+		box-shadow: 0 0 6px 2px #000000;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+	}
+	.logo{
+		float:left;
+	}
+	.player{
+		float:right;
+		margin: 7px;
+		color: #000000;
+	}
+	.song-title{
+		width: 300px;
+		padding: 5px 0px 5px 0px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.song-slider
+	{
+		width: 300px;
+		color: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+
+	}
+	.current-time{
+		float:left;
+		font-size: 10px;
+	}
+	.duration{
+		float:right;
+		font-size: 10px;
+	}
+	.controllers{
+		clear: both;
+		display: table;
+	}
+	.controllers *{
+		vertical-align: middle;
+		margin-right: 2px;
+	}
+	.volume-slider{
+		width: 90px;
+		margin-left: 5px;
+	}
+	.list{
+		width: 450px;
+		height: 300px;
+		background: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+		box-shadow: 0 0 6px 2px #000000;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+		text-align: center;
+	}
+	.h1{
+		width: 350px;
+		height: 50px;
+		box-shadow: 0 0 3px 4px #000000;
+		color: red;
+		font-size: 12px;
+		text-align: center;
+
+	}
+	.lyris{
+		width: 450px;
+		height: 150px;
+		background: #f3ebdc;
+		box-shadow: 0 0 6px 2px #000000;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+
+	}
+.hint{
+		border-style: solid;
+		width: 1320px;
+		height: 90px;
+		background: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+		box-shadow: 0 0 70px 2px #000000;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+		border-top-left-radius:2em; 
+		border-bottom-left-radius:2em; 
+		border-top-left-radius:2em; 
+		border-bottom-left-radius:2em; 
+		border-top-right-radius:2em;
+		border-top-right-radius-radius:2em; 
+		border-bottom-right-radius-radius:2em; 
+		border-bottom-right-radius: 2em; 
+		align-content: center;
+}
+.hii{
+	color: #000000;
+	font-size: 20px;
+}
+.line{
+	height: 1px;
+	width: 250px;
+}
+.con{
+		width: 450px;
+		height: 300px;
+		background: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+		box-shadow: 0 0 6px 2px #000000;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+		text-align: center;
+}
+* 
+{
+	box-sizing:border-box
+}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: red;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slide {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.deatil{
+	width: 450px;
+		height: 220px;
+		background: linear-gradient(to right,#f6f1d3,#648880,#293f50);
+		box-shadow: 0 0 6px 2px #000000;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+		text-align: center;	
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.c1{
+	font-size: 35px;
+	font-weight: bold;
+}
+.c2{
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
